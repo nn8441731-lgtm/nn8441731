@@ -1,0 +1,22 @@
+# Requirements for Paper Replication
+# License Integrity Audit
+
+# Python version: 3.12.9
+
+# Data Mining Script (mine.py) Requirements
+huggingface-hub>=0.20.0
+python-dotenv>=1.0.0
+pyyaml>=6.0
+requests>=2.31.0
+tqdm>=4.65.0
+scancode-toolkit>=32.0.0  # License detection (requires substantial disk space)
+
+# Analysis Scripts (run_full_analysis.py) - No external dependencies
+# All analysis scripts use Python standard library only:
+# - pathlib
+# - json
+# - re
+# - collections
+# - subprocess
+# - time
+# - datetime
